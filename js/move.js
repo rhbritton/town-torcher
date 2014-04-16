@@ -18,6 +18,7 @@ Hammer(data.variables.background.element).on("tap", function(event) {
 })
 
 data.functions.moveDragon = function(x, y) {
+	var background = document.getElementById('background')
 	background.style['margin-left'] = x
 	background.style['margin-top'] = y
 
